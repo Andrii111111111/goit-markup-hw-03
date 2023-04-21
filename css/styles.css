@@ -1,0 +1,220 @@
+/* variables */
+:root {
+    --first-text-color: #434455;
+    --second-text-color: #2E2F42;
+    --active-link-color: #404BBF;
+    --active-linc-cl-txt:#FFFFFF;
+    --bg-color: #2E2F42;
+    --cl-button-txt:#4D5AE5;
+    --bg-buttons:#F4F4FD;
+    --cl-border:#E7E9FC;
+    --bg-body: #FFFFFF;
+}
+
+/* defolts class */
+.list {
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+}
+
+/* body */
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--first-text-color);
+    background-color: var(--bg-body);
+}
+
+
+/* logo */
+.logo-text {
+    color:#f4f4fd;
+}
+.logo-text:hover,
+.logo-text:focus {
+    color: var(--active-link-color);
+}
+.logo-link {
+    color: var(--cl-button-txt);
+}
+.logo-link:hover,
+.logo-link:focus {
+color: var(--active-link-color);
+}
+.logo-link {
+   
+    font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        font-family: "Raleway", sans-serif;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.logo-up-cl {
+    color: var(--second-text-color);
+}
+
+.nav-link {
+color: var(--second-text-color);
+
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+   
+}
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+.contacts-link {
+    color: var(--first-text-color)
+}
+.contacts-link {
+   
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--active-link-color);
+}
+.addres {
+    font-style: normal;
+}
+
+/* footer */
+.footer-cl-txt {
+    color: #F4F4FD;
+}
+.footer-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.footer {
+    background-color: var(--bg-color);
+}
+
+/* hero */
+.hero-headings {
+    font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+}
+.btn {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        background: #4D5AE5;
+        cursor: pointer;
+        font-family: "Roboto", sans-serif;
+}
+.btn:hover,
+.btn:focus {
+    background: var(--active-link-color);
+}
+.hero {
+    background-color: var(--bg-color);
+}
+
+/* invisible */
+
+.invisible-headings {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--second-text-color)
+}
+.invisible-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+/* products */
+.products-header {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--second-text-color);
+        text-transform: capitalize;
+}
+
+/* team */
+.teem {
+    background-color: #F4F4FD;
+}
+.team-header {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--second-text-color);
+        text-transform: capitalize;
+}
+
+.team-headings {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--second-text-color)
+}
+.team-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+
+.list-link {
+    background-color: var(--bg-body);
+}
+
+/* !!!second page!!! */
+
+/* production */
+
+.production-btn {
+    background-color: var(--bg-buttons);
+    border: 1px solid var(--cl-border);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--cl-button-txt);
+        cursor: pointer;
+        letter-spacing: 0.04em;
+        font-family: "Roboto", sans-serif;
+}
+.production-btn:hover,
+.production-btn:focus {
+    background-color: var(--active-link-color);
+color: var(--active-linc-cl-txt);
+}
+
+
+.production-headlines {
+    font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: var(--second-text-color);  
+}
+.production-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--first-text-color);
+}
