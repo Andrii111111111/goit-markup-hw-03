@@ -11,47 +11,54 @@
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="logo-link link" href="./index.html">
-          Web<span class="logo-text logo-up-cl">Studio</span></a
-        >
-        <ul class="nav-list list">
-          <li>
-            <a class="nav-link link" href="./index.html"> Studio </a>
-          </li>
-          <li>
-            <a class="nav-link link" href="./portfolio.html"> Portfolio </a>
-          </li>
-          <li>
-            <a class="nav-link link" href=""> Contacts </a>
-          </li>
-        </ul>
-      </nav>
-      <address class="addres">
-        <ul class="adres-list list">
-          <li>
-            <a class="contacts-link link" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="contacts-link link" href="tel:+110001111111"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+    <header class="header section">
+      <div class="header-container container">
+        <nav class="nav">
+          <a class="logo-link link" href="./index.html">
+            Web<span class="logo-text logo-up-cl">Studio</span></a
+          >
+          <ul class="nav-list list">
+            <li>
+              <a class="nav-link link" href="./index.html"> Studio </a>
+            </li>
+            <li>
+              <a class="nav-link link" href="./portfolio.html"> Portfolio </a>
+            </li>
+            <li>
+              <a class="nav-link link" href=""> Contacts </a>
+            </li>
+          </ul>
+        </nav>
+        <address class="addres">
+          <ul class="adres-list list">
+            <li>
+              <a class="contacts-link link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contacts-link link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section class="production">
+        <div class="production-container container">
         <!-- hide h1 -->
         <h1 hidden>Our production</h1>
         <ul class="production-btn-list list">
-          <li><button class="production-btn" type="button">All</button></li>
+          <li class="production-btn-item"><button class="production-btn" type="button">All</button></li>
           <li>
             <button class="production-btn" type="button">Web Site</button>
           </li>
@@ -62,9 +69,9 @@
           </li>
         </ul>
         <ul class="production-list list">
-          <li>
+          <li class="production-list-item">
             <a class="production-links link" href="">
-              <img
+              <img 
                 class="production-img"
                 src="./images/portfolio1.jpg"
                 alt="bank app"
@@ -77,9 +84,9 @@
               <p class="production-text">App</p>
             </a>
           </li>
-          <li>
+          <li class="production-list-item">
             <a class="production-links link" href="">
-              <img
+              <img class="production-img"
                 src="./images/portfolio2.jpg"
                 alt="contactless payment"
                 width="360"
@@ -89,9 +96,9 @@
               <p class="production-text">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="production-list-item">
             <a class="production-links link" href="">
-              <img
+              <img class="production-img"
                 src="./images/portfolio3.jpg"
                 alt="laptop and phone"
                 width="360"
@@ -101,9 +108,9 @@
               <p class="production-text">App</p>
             </a>
           </li>
-          <li>
+          <li class="production-list-item">
             <a class="production-links link" href="">
-              <img
+              <img class="production-img"
                 src="./images/portfolio4.jpg"
                 alt="using the phone in the car"
                 width="360"
@@ -113,9 +120,9 @@
               <p class="production-text">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="production-list-item">
             <a class="production-links link" href="">
-              <img
+              <img class="production-img"
                 src="./images/portfolio5.jpg"
                 alt="phone menu theme"
                 width="360"
@@ -125,9 +132,9 @@
               <p class="production-text">Design</p>
             </a>
           </li>
-          <li>
+          <li class="production-list-item">
             <a class="production-links link" href="">
-              <img
+              <img class="production-img"
                 src="./images/portfolio6.jpg"
                 alt="girl using video call"
                 width="360"
@@ -137,9 +144,9 @@
               <p class="production-text">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="production-list-item">
             <a class="production-links link" href="">
-              <img
+              <img class="production-img"
                 src="./images/portfolio7.jpg"
                 alt="Instagram Stories Concept"
                 width="360"
@@ -149,9 +156,9 @@
               <p class="production-text">Design</p>
             </a>
           </li>
-          <li>
+          <li class="production-list-item">
             <a class="production-links link" href="">
-              <img
+              <img class="production-img"
                 src="./images/portfolio8.jpg"
                 alt="girls with groceries"
                 width="360"
@@ -161,9 +168,9 @@
               <p class="production-text">Web Site</p>
             </a>
           </li>
-          <li>
+          <li class="production-list-item">
             <a class="production-links link" href="">
-              <img
+              <img class="production-img"
                 src="./images/portfolio9.jpg"
                 alt="just brewed coffee"
                 width="360"
@@ -175,15 +182,18 @@
           </li>
         </ul>
       </section>
+      </div>
     </main>
-    <footer class="footer">
-      <a class="logo-link link" href="./index.html">
-        Web<span class="logo-text">Studio</span></a
-      >
-      <p class="footer-text footer-cl-txt">
-        Increase the flow of customers and sales for your business with digital
-        marketing &#38; growth solutions.
-      </p>
+    <footer class="footer section">
+      <div class="footer-container container">
+        <a class="logo-link link" href="./index.html">
+          Web<span class="logo-text">Studio</span></a
+        >
+        <p class="footer-text footer-cl-txt">
+          Increase the flow of customers and sales for your business with
+          digital marketing &#38; growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
