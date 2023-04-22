@@ -43,7 +43,6 @@ ul {
     padding: 0;
 }
 
-.section {}
 
 /* container */
 
@@ -73,6 +72,7 @@ body {
 
 .nav {
     display: flex;
+    align-items: center;
 }
 
 .nav-list {
@@ -162,22 +162,26 @@ body {
 .footer-cl-txt {
     color: #F4F4FD;
 }
+.logo-link {
+    display: inline-block;
+    margin-bottom: 16px;
+}
 
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 16px;
+  
     width: 264px;
 }
 
 .footer {
     background-color: var(--bg-color);
-}
-.footer-container {
     padding-top: 100px;
-    padding-bottom: 100px;
+        padding-bottom: 100px;
 }
+
+    
 
 /* hero */
 .hero-headings {
@@ -189,7 +193,7 @@ body {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 48px;
-    width: 496px;
+    max-width: 496px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -204,12 +208,13 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     padding: 16px 32px;
-    min-width: 105px;
-    min-height: 24px;
+    min-width: 169px;
+    min-height: 56px;
     cursor: pointer;
     font-family: "Roboto", sans-serif;
     display: block;
     margin: 0 auto;
+    border: none
 
 }
 
@@ -222,12 +227,12 @@ body {
     background-color: var(--bg-color);
 }
 
-.hero-container {
+.hero {
     padding: 188px 0;
 }
 
 /* about */
-.about-container {
+.about-section {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -274,12 +279,14 @@ flex-basis: calc((100% - 24px * 3)/4);
 .products-list-item {
     flex-basis: calc((100% - 24px * 2)/3);
 }
-.products-container {
+.products {
     padding-bottom: 120px;
 }
 /* team */
 .teem {
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-header {
@@ -320,10 +327,7 @@ gap: 24px;
         box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
         border-radius: 0px 0px 4px 4px;
 }
-.team-container {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+
 .team-list-card {
     margin: 32px 16px;
 }
@@ -378,7 +382,7 @@ gap: 24px;
     gap: 24px;
     margin-bottom: 72px;
 }
-.production-container {
+.production {
     padding-top: 96px;
     padding-bottom: 120px;
 }
