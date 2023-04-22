@@ -167,10 +167,16 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-top: 16px;
+    width: 264px;
 }
 
 .footer {
     background-color: var(--bg-color);
+}
+.footer-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /* hero */
@@ -222,12 +228,17 @@ body {
 
 /* about */
 .about-container {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .about-list {
     display: flex;
-    flex-basis: calc(100% - 24px * 3)/4;
+    gap: 24px;
+    
+}
+.about-list-item {
+flex-basis: calc((100% - 24px * 3)/4);
 }
 
 .about-headings {
@@ -235,7 +246,8 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--second-text-color)
+    color: var(--second-text-color);
+    margin-bottom: 8px;
 }
 
 .about-text {
@@ -253,8 +265,18 @@ body {
     letter-spacing: 0.02em;
     color: var(--second-text-color);
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
-
+.products-list {
+    display: flex;
+    gap: 24px;
+}
+.products-list-item {
+    flex-basis: calc((100% - 24px * 2)/3);
+}
+.products-container {
+    padding-bottom: 120px;
+}
 /* team */
 .teem {
     background-color: #F4F4FD;
@@ -268,6 +290,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--second-text-color);
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-headings {
@@ -275,18 +298,39 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--second-text-color)
+    color: var(--second-text-color);
+    margin-bottom: 8px;
+    text-align: center;
+   
 }
 
 .team-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
+}
+.team-list {
+display: flex;
+gap: 24px;
+}
+.team-list-item {
+    flex-basis: calc((100% - 24px * 3)/4);
+    background: #FFFFFF;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
+}
+.team-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.team-list-card {
+    margin: 32px 16px;
 }
 
-.list-link {
+/* .list-link { */
     background-color: var(--bg-body);
-}
+/* } */
 
 /* !!!second page!!! */
 
