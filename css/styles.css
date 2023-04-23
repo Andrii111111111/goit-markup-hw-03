@@ -284,6 +284,7 @@ flex-basis: calc((100% - 24px * 3)/4);
 .products {
     padding-bottom: 120px;
 }
+
 /* team */
 .teem {
     background-color: #F4F4FD;
@@ -401,6 +402,4 @@ flex-basis: calc((100% - 24px * 2) /3);
 padding: 32px 16px;
 border: 1px solid #e7e9fc;
 border-top: none;
-
-
 }
