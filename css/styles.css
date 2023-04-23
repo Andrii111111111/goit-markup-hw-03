@@ -276,7 +276,6 @@ flex-basis: calc((100% - 24px * 3)/4);
 .products-list {
     display: flex;
     gap: 24px;
-    row-gap: 48px;
 }
 .products-list-item {
     flex-basis: calc((100% - 24px * 2)/3);
