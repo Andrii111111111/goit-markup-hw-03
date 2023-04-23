@@ -72,8 +72,8 @@ body {
 
 .nav {
     display: flex;
-    align-items: baseline;
-    /* align-items: center; */
+    align-items: center;
+ 
 }
 
 .nav-list {
@@ -351,15 +351,14 @@ gap: 24px;
     font-family: "Roboto", sans-serif;
     border-radius: 4px;
     min-height: 48px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 12px 24px;
 }
-
 
 .production-btn:hover,
 .production-btn:focus {
     background-color: var(--active-link-color);
-    color: var(--active-linc-cl-txt);
+    color: var(--active-linc-cl-txt); 
+     border: 1px solid transparent; 
 }
 
 
@@ -392,6 +391,7 @@ gap: 24px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
 }
 .production-list-item {
 flex-basis: calc((100% - 24px * 2) /3);
